@@ -14,6 +14,8 @@
 
 .text-sec3 h1 {
     margin: 20px;
+    color: #132026;
+    border-bottom: 3px solid #FFC94B;
 }
 
 .text-sec3 p {
@@ -43,7 +45,7 @@
         radial-gradient(circle at 0 0, #ffffff 0, #ffffff 27px, transparent 27px) 100% 100%/30px 30px no-repeat,
         linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 60px) no-repeat,
         linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 6px) no-repeat,
-        linear-gradient(312deg, transparent 53%, #8559ff 100%);
+        linear-gradient(312deg, transparent 65%, #FFC94B 100%);
     border-radius: 30px;
     padding: 12px;
     box-sizing: border-box;
@@ -71,17 +73,18 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    gap: 5%;
     margin: 10px;
     white-space: nowrap;
 }
 
 .name-course {
     border-radius: 5px;
-    background: rgba(209, 193, 253, 0.729);
-    color: #8559ff;
+    background: #FFC94B;
+    color: #132026;
     border: none;
     font-weight: bold;
+    font-size: 14px;
     padding: 5px;
 }
 
@@ -119,7 +122,7 @@
         radial-gradient(circle at 0 0, #ffffff 0, #ffffff 27px, transparent 27px) 100% 100%/30px 30px no-repeat,
         linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 60px) no-repeat,
         linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 6px) no-repeat,
-        linear-gradient(135deg, transparent 53%, #8559ff 100%);
+        linear-gradient(135deg, transparent 65%, #FFC94B 100%);
     border-radius: 30px;
     padding: 3px;
     box-sizing: border-box;

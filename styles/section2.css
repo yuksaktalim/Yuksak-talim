@@ -107,7 +107,7 @@
     height: 60px;
     display: inline-block;
     border-radius: 100%;
-    background-color: aqua;
+    background-color: #FFC94B;
 }
 
 .icon {
@@ -120,11 +120,11 @@
 
 .right h1 {
     font-size: 34px;
-    font-family: 'Kanit', sans-serif;
+    color: #132026;
 }
 .items p{
     font-size: 14px;
-    color: #595B83;
+    color: #132026;
 }
 
 .item {
