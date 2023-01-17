@@ -1,0 +1,248 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(139, 206, 247); */
+  background-color: #6776ff;
+  height: 70px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav-item {
+  padding: 10px;
+  list-style: none;
+}
+.nav-item a {
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: wheat;
+}
+
+.header button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+.header button:hover {
+  background-color: aqua;
+  color: white;
+  cursor: pointer;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.header a:hover {
+  cursor: pointer;
+}
+
+.sec1 {
+  position: relative;
+  align-items: center;
+  height: 550px;
+  /* background-color: rgb(139, 206, 247); */
+  background-color: #6776ff;
+  border-bottom-left-radius: 40pc;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+  /* bottom: 20%; */
+  /* flex-wrap: wrap; */
+  /* height: calc(100vh - 200px); */
+  height: 521px;
+  justify-content: center;
+}
+
+.container-left h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin: 0px 400px;
+  align-items: center;
+}
+
+.buttons button {
+  border: none;
+  width: 125px;
+  height: 50px;
+  border-radius: 10px;
+  color: #6271f2;
+  font-size: 16px;
+}
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  /* background-color: red; */
+  width: 40%;
+}
+
+.text-sec1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-right img {
+    z-index: 1;
+}
+
+.img-line-1 {
+    background-color: #fff;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    position: absolute;
+    width: 280px;
+    border: 2px solid rgb(255, 255, 255, 0.6);
+    height: 330px;
+}
+
+.img-line-2 {
+    position: absolute;
+    top: 10%;
+    width: 320px;
+    height: 330px;
+    border: 2px solid rgb(255, 255, 255, 0.6);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 100px;
+}
+
+.img-line-3 {
+    position: absolute;
+    top: 5%;
+    width: 360px;
+    height: 370px;
+    border: 2px solid rgb(255, 255, 255, 0.6);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 100px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  gap: 15px;
+  top: 85%;
+  left: 20%;
+}
+.box {
+  height: 170px;
+  width: 130px;
+  border-radius: 20px;
+  border: 2px solid #6776ff;
+  text-align: center;
+  background-color: #fff;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box p {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.text-color {
+  font-size: 22px;
+  font-weight: bold;
+}
+.box:nth-child(1) {
+  font-size: 28px;
+  color: #53db53;
+}
+
+.box:nth-child(2) {
+  font-size: 28px;
+  color: #f04747;
+}
+
+.box:nth-child(3) {
+  font-size: 28px;
+  color: #6751d8;
+}
+
+.icon-1 {
+  background-color: #b4f1b4;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.icon-2 {
+  background-color: #ffd7dd;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.icon-3 {
+  background-color: #d9ddff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.fa-school-flag:before {
+  content: "\e56e";
+  position: relative;
+  top: 15%;
+}
+.fa-users-line:before {
+  content: "\e592";
+  position: relative;
+  top: 20%;
+}
+.fa-earth-america:before,
+.fa-earth-americas:before,
+.fa-earth:before,
+.fa-globe-americas:before {
+  content: "\f57d";
+  position: relative;
+  top: 17%;
+}
+
+.text-sec1 p {
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.buttons a{
+  color: white;
+  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+}

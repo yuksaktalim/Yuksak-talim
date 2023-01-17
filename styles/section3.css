@@ -1,0 +1,128 @@
+.section3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.text-sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.text-sec3 h1 {
+    margin: 20px;
+}
+
+.text-sec3 p {
+    margin: 0 20px 20px 20px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+    gap: 50px;
+    margin: 0 auto;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.artic {
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+    height: 320px;
+
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 27px, transparent 27px) 0% 0%/30px 30px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 27px, transparent 27px) 100% 0%/30px 30px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 27px, transparent 27px) 0% 100%/30px 30px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 27px, transparent 27px) 100% 100%/30px 30px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 60px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 6px) no-repeat,
+        linear-gradient(312deg, transparent 53%, #8559ff 100%);
+    border-radius: 30px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.artic p {
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.artic img {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border: none;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+
+.course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.name-course {
+    border-radius: 5px;
+    background: rgba(209, 193, 253, 0.729);
+    color: #8559ff;
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.rate {
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: white;
+    border: none;
+    background: #8559ff;
+    font-size: 11px;
+    padding: 5px 10px 5px 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 13px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #8559ff;
+}
+
+
+
+.artic2 {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 27px, transparent 27px) 0% 0%/30px 30px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 27px, transparent 27px) 100% 0%/30px 30px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 27px, transparent 27px) 0% 100%/30px 30px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 27px, transparent 27px) 100% 100%/30px 30px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 60px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 6px) no-repeat,
+        linear-gradient(135deg, transparent 53%, #8559ff 100%);
+    border-radius: 30px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 0;
+
+}

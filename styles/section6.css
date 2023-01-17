@@ -1,0 +1,131 @@
+body {
+    --img-url: url(/photo_2022-12-22_14-44-52.jpg);
+}
+
+.text-sec6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#text h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 0;
+}
+
+#text p {
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.8;
+    color: #132026;
+    line-height: 2;
+    word-spacing: 3px;
+}
+
+.sixpart {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.part2 {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 76px, transparent 76px) 0% 0%/80px 80px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 76px, transparent 76px) 100% 0%/80px 80px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 76px, transparent 76px) 0% 100%/80px 80px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 76px, transparent 76px) 100% 100%/80px 80px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 160px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 160px) calc(100% - 8px) no-repeat,
+        linear-gradient(135deg, transparent 65%, rgba(72, 171, 224, 0.424) 77%, #48abe0 100%);
+    border-radius: 80px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.part2 p {
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.6;
+    color: #132026;
+    line-height: 1.5;
+}
+
+.part2 h3 {
+    text-align: center;
+    margin: 6px;
+    padding: 0;
+}
+
+.p1 {
+    margin: 6px;
+}
+
+.headshot {
+    flex-shrink: 0;
+    margin: 0px;
+    height: calc(0px + 6vw);
+    width: calc(0px + 6vw);
+    border: calc(2px + 0.2vw) solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: 43%;
+}
+
+.headshot-1 {
+    border-radius: 50%;
+    background-image: var(--img-url), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+}
+
+.headshot2 {
+    flex-shrink: 0;
+    margin: 0px;
+    height: calc(-10px + 6vw);
+    width: calc(-10px + 6vw);
+    border: calc(2px + 0.2vw) solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: 25%;
+}
+
+.headshot3 {
+    flex-shrink: 0;
+    height: calc(-15px + 6vw);
+    width: calc(-15px + 6vw);
+    border: calc(2px + 0.2vw) solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -80%;
+}
+
+.headshot4 {
+    flex-shrink: 0;
+    height: calc(-20px + 6vw);
+    width: calc(-20px + 6vw);
+    border: calc(2px + 0.2vw) solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: 80%;
+}
+
+.part2-1 {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 76px, transparent 76px) 0% 0%/80px 80px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 76px, transparent 76px) 100% 0%/80px 80px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 76px, transparent 76px) 0% 100%/80px 80px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 76px, transparent 76px) 100% 100%/80px 80px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 160px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 160px) calc(100% - 8px) no-repeat,
+        linear-gradient(312deg, transparent 65%, rgba(72, 171, 224, 0.424) 77%, #48abe0 100%);
+    border-radius: 80px;
+}

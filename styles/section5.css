@@ -1,0 +1,89 @@
+.section5 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #eaf0ff;
+    margin: auto;
+    width: 80%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 10px;
+    padding-bottom: 5%;
+    border-radius: 10%;
+}
+
+.sec-div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+.sec-div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+}
+
+.sec-div {
+    font-size: 11px;
+    width: 270px;
+    height: 330px;
+    border: 1px solid white;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.imgsec5 {
+    margin-top: 10px;
+    width: 240px;
+    height: 190px;
+
+}
+
+.text-sec5 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.text-sec5 h1{
+    font-size: 36px;
+    padding-top: 85px;
+}
+.text-sec5 p{
+    font-size: 16px;
+    padding: 25px;
+    padding-bottom: 45px;
+}
+
+.button-sec5 {
+    position: relative;
+    top: 20px;
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #6e7cff;
+    font-size: 14px;
+}
+
+.sec-div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .sec-div a:hover {
+    color: rgb(64, 0, 255);
+} */
+
+.button:hover {
+    background-color: white;
+    transition-duration: 0.6s;
+    border: 2px solid rgb(64, 0, 255);
+    cursor: pointer;
+}
