@@ -1,6 +1,5 @@
-
 #footer {
-    background-color: #e3c82e;
+    background-color: #132026;
     border-top-left-radius: 500px;
     position: absolute;
     width: 100%;
@@ -10,90 +9,103 @@
 }
 
 .form {
-    background-color: #ffffff;
+    background-color: #132026;
     position: absolute;
-    height: 250px;
+    height: 400px;
     width: 800px;
     text-align: center;
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 30px;
-
-}
-
-.border {
-    background-color: #ffffff;
-    position: absolute;
-    width: 810px;
-    height: 250px;
-    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 25px, transparent 25px) 0% 0%/30px 30px no-repeat,
-        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 25px, transparent 25px) 100% 0%/30px 30px no-repeat,
-        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 25px, transparent 25px) 0% 100%/30px 30px no-repeat,
-        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 25px, transparent 25px) 100% 100%/30px 30px no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 60px) no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 10px) no-repeat,
-        linear-gradient(0deg, transparent 0%, goldenrod 100%);
-    border-radius: 30px;
-    padding: 9px;
-    box-sizing: border-box;
-    top: -1%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    border: 3px solid #ffc94b;
+    color: #ffc94b;
+    padding: 10px;
 }
 
 .form h1 {
     padding: 5px;
-    margin-top: 5%;
-    color: goldenrod;
+    margin-top: 10px;
+    color: #ffc94b;
 }
 
 .form p {
-    padding-bottom: 10px;
-    color: goldenrod;
-    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.form__item:nth-child(1) {
+    margin-top: 50px !important;
 }
 
 .form__item {
     display: flex;
-    justify-content: center;
-    gap: 3px;
+    gap: 20px;
+}
+
+.form__item1 {
+    display: grid;
 }
 
 .form input {
-    padding: 20px 20px;
-    width: 250px;
-    border: 1px solid #f8d98c;
-    border-radius: 15px;
-    outline: none;
-    color: goldenrod;
+    padding: 15px 15px;
+    width: 600px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #ffc94b;
+    background-color: #132026;
+    color: #ffc94b;
 }
 
 .form input:focus {
-    outline: 1.1px solid goldenrod;
-    transition-duration: 0.1s;
+    outline: 2px solid #ffc94b;
+    transition: 0.1s;
 }
 
 ::placeholder {
-    color: goldenrod;
+    color: #ffc94b;
     opacity: 1;
 }
 
+.form select {
+    width: 652px;
+    height: 46px;
+    background-color: #132026;
+    color: #ffc94b;
+    border: 1px solid #ffc94b;
+}
+
+.form select:active {
+    outline: 1px solid #ffc94b;
+}
+
+.form select::after {
+    outline: 1px solid #ffc94b;
+}
+
+.form textarea {
+    width: 97.4%;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #132026;
+    color: #ffc94b;
+    border: 1px solid #ffc94b;
+    padding: 10px;
+}
+
+.form textarea:active {
+    border: 1px solid #ffc94b;
+}
+
 .form button {
-    padding: 20px 20px;
-    border-radius: 13px;
-    border: none;
-    background-color: goldenrod;
-    color: #fff;
+    padding: 20px 30px;
     cursor: pointer;
-    margin-left: -1px;
+    color: #132026;
+    background-color: #ffc94b;
+    border: none;
 }
 
 .form button:hover {
-    background-color: #fff;
-    color: goldenrod;
-    outline: 1px solid goldenrod;
-    transition: 0.3s;
+    box-shadow: 0 3px 7px rgb(255 201 75 / 50%) !important;
+    transition: 0.3s ease-in-out;   
 }
 
 .content {
