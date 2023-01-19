@@ -27,10 +27,22 @@
 .sixpart {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     /* width: 80%; */
     /* margin: 0 auto; */
 
+}
+
+.part2-1 {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 76px, transparent 76px) 0% 0%/80px 80px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 76px, transparent 76px) 100% 0%/80px 80px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 76px, transparent 76px) 0% 100%/80px 80px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 76px, transparent 76px) 100% 100%/80px 80px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 160px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 160px) calc(100% - 8px) no-repeat,
+        linear-gradient(312deg, transparent 65%, rgba(72, 171, 224, 0.424) 77%, #48abe0 100%);
+    border-radius: 80px;
+    width: 45%;
 }
 
 .part2 {
@@ -44,8 +56,9 @@
     border-radius: 80px;
     padding: 24px;
     box-sizing: border-box;
-    /* width: 70%;
-    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .part2 p {
@@ -66,16 +79,20 @@
     margin: 6px;
 }
 
+.part1 {
+    position: relative;
+    height: 231px;
+    width: 231px;
+}
+
 .headshot {
     /* flex-shrink: 0; */
-    margin: 0px;
     height: calc(0px + 6vw);
     width: calc(0px + 6vw);
     /* border: calc(2px + 0.2vw) solid transparent;
     background-origin: border-box;*/
     background-clip: content-box, border-box;
-    background-size: cover; 
-    margin-left: 43%;
+    background-size: cover;
 }
 
 .headshot-1 {
@@ -84,27 +101,29 @@
 }
 
 .headshot2 {
-    /* flex-shrink: 0; */
-    margin: 0px;
+    flex-shrink: 0;
     height: calc(-10px + 6vw);
     width: calc(-10px + 6vw);
     /* border: calc(2px + 0.2vw) solid transparent;
     background-origin: border-box;*/
     background-clip: content-box, border-box;
-    background-size: cover; 
-    background-image: url(/images/section4/teacher.png);
-    margin-left: 25%;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 35%;
 }
 
 .headshot3 {
-    /* flex-shrink: 0; */
-    height: calc(-15px + 6vw);
-    width: calc(-15px + 6vw);
+    flex-shrink: 0;
+    height: calc(-10px + 5vw);
+    width: calc(-10px + 5vw);
     /* border: calc(2px + 0.2vw) solid transparent;
     background-origin: border-box;*/
     background-clip: content-box, border-box;
-    background-size: cover; 
-    margin-left: -80%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 35%;
 }
 
 .headshot4 {
@@ -114,21 +133,48 @@
     /* border: calc(2px + 0.2vw) solid transparent;
     background-origin: border-box; */
     background-clip: content-box, border-box;
-    background-size: cover; 
-    margin-left: 80%;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
-.part2-1 {
-    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 76px, transparent 76px) 0% 0%/80px 80px no-repeat,
-        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 76px, transparent 76px) 100% 0%/80px 80px no-repeat,
-        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 76px, transparent 76px) 0% 100%/80px 80px no-repeat,
-        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 76px, transparent 76px) 100% 100%/80px 80px no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 160px) no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 160px) calc(100% - 8px) no-repeat,
-        linear-gradient(312deg, transparent 65%, rgba(72, 171, 224, 0.424) 77%, #48abe0 100%);
-    border-radius: 80px;
-    width: 45%;
-    /* margin: 0 auto; */
+.headshot2-1 {
+    /* flex-shrink: 0; */
+    height: calc(-10px + 6vw);
+    width: calc(-10px + 6vw);
+    /* border: calc(2px + 0.2vw) solid transparent;
+    background-origin: border-box; */
+    background-clip: content-box, border-box;
+    background-size: cover;
+    position: absolute;
+    left: 35%;
+}
+
+.headshot3-1 {
+    /* flex-shrink: 0; */
+    height: calc(-10px + 5vw);
+    width: calc(-10px + 5vw);
+    /* border: calc(2px + 0.2vw) solid transparent;
+    background-origin: border-box; */
+    background-clip: content-box, border-box;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+
+.headshot4-1 {
+    /* flex-shrink: 0; */
+    height: calc(-20px + 6vw);
+    width: calc(-20px + 6vw);
+    /* border: calc(2px + 0.2vw) solid transparent;
+    background-origin: border-box; */
+    background-clip: content-box, border-box;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .fadeIn1 {
@@ -217,6 +263,7 @@
         opacity: 1;
     }
 }
+
 .headshot2-1 {
     /* flex-shrink: 0; */
     height: calc(-10px + 6vw);
@@ -225,8 +272,9 @@
     background-origin: border-box; */
     background-clip: content-box, border-box;
     background-size: cover;
-    margin-left: 25%;
+    /* margin-left: 25%; */
 }
+
 .headshot3-1 {
     /* flex-shrink: 0; */
     height: calc(-15px + 6vw);
@@ -235,8 +283,8 @@
     background-origin: border-box; */
     background-clip: content-box, border-box;
     background-size: cover;
-    margin-left: 125%;
 }
+
 .headshot4-1 {
     /* flex-shrink: 0; */
     height: calc(-20px + 6vw);
@@ -245,5 +293,8 @@
     background-origin: border-box; */
     background-clip: content-box, border-box;
     background-size: cover;
-    margin-left: -3%;
+}
+
+.part1 {
+    position: relative;
 }
