@@ -73,9 +73,10 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 5%;
+    /* gap: 5%;*/
     margin: 10px;
-    white-space: nowrap;
+    /* white-space: nowrap;*/
+    
 }
 
 .name-course {
@@ -128,4 +129,81 @@
     box-sizing: border-box;
     margin: 0;
 
+}
+
+
+
+.artic_1{
+    position: relative;
+    animation-name: cards;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes cards{
+    0%{
+        left:1000px;
+    }
+    50%{
+        left:0;
+    }
+}
+
+
+.artic_2{
+    position: relative;
+    animation-name: cards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes cards{
+    0%{
+        left:1000px;
+    }
+    50%{
+        left:0;
+    }
+}
+
+
+.artic_3{
+    position: relative;
+    animation-name: cards;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes cards{
+    0%{
+        left:1000px;
+    }
+    50%{
+        left:0;
+    }
+}
+
+
+.artic_4{
+    position: relative;
+    animation-name: cards;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes cards{
+    0%{
+        left:1300px;
+    }
+    50%{
+        left:0;
+    }
 }
