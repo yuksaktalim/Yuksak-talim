@@ -1,6 +1,5 @@
 #footer {
     background-color: #132026;
-    border-top-left-radius: 500px;
     position: absolute;
     width: 100%;
     height: 510px;
@@ -20,6 +19,18 @@
     border: 3px solid #ffc94b;
     color: #ffc94b;
     padding: 10px;
+    animation: leftmove 1s 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes leftmove {
+    from {
+        right: 1000px;
+    }
+
+    to {
+        right: 0px;
+    }
 }
 
 .form h1 {
@@ -52,6 +63,7 @@
     border: 1px solid #ffc94b;
     background-color: #132026;
     color: #ffc94b;
+    font-size: 15px;
 }
 
 .form input:focus {
@@ -70,6 +82,7 @@
     background-color: #132026;
     color: #ffc94b;
     border: 1px solid #ffc94b;
+    font-size: 15px;
 }
 
 .form select:active {
@@ -88,6 +101,7 @@
     color: #ffc94b;
     border: 1px solid #ffc94b;
     padding: 10px;
+    font-size: 18px;
 }
 
 .form textarea:active {
@@ -104,7 +118,7 @@
 
 .form button:hover {
     box-shadow: 0 3px 7px rgb(255 201 75 / 50%) !important;
-    transition: 0.3s ease-in-out;   
+    transition: 0.3s ease-in-out;
 }
 
 .content {
@@ -114,6 +128,18 @@
     top: 280px;
     color: #ffc94b;
     height: 230px;
+    animation: mymove 1s 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+    from {
+        left: 1000px;
+    }
+
+    to {
+        left: 0px;
+    }
 }
 
 .content ul li {
