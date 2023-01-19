@@ -39,7 +39,20 @@
     background-color: red;
     left: -15%;
     border-top-left-radius: 50pc;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: -2s;
 }
+
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:-45px; top:-90px;}
+    }
+
 
 .shape2 {
     position: absolute;
@@ -50,7 +63,20 @@
     background-color: green;
     right: -20%;
     border-top-right-radius: 100px;
+    animation-name: vay;
+    animation-duration: 3.3s;
+    animation-delay: -1s;
 }
+
+@keyframes vay {
+    0%   { left:0px; top:0px;}
+    25%  {left:240px; top:240px;}
+    50%  {left:0px; top:0px;}
+    75%  { left:-25px; top:230px;}
+    100% { left:99px; top:-75px;}
+    }
+
+
 
 .shape3 {
     position: absolute;
@@ -61,7 +87,10 @@
     border-radius: 100px;
     top: 30%;
     left: 30%;
+  
 }
+
+
 
 .shape4 {
     position: absolute;
@@ -72,7 +101,19 @@
     border-bottom-left-radius: 100px;
     top: 85%;
     left: -15%;
+    animation-name: hay;
+    animation-duration: 2.9s;
+    animation-delay: -0.3s;
 }
+
+@keyframes hay {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:275px;}
+    75%  { left:0px; top:275px;}
+    100% { left:-45px; top:325px;}
+    }
+
 
 .shape5 {
     position: absolute;
@@ -83,7 +124,16 @@
     background-color: brown;
     top: 55%;
     right: -20%;
+    animation-name: tay;
+    animation-duration: 3.4s;
 }
+
+@keyframes tay {
+    0%   { left:0px; top:0px;}
+    50%  {left:200px; top:0px;}
+    100%  {left:250px; top:240px;}
+    }
+
 
 .shape6 {
     position: absolute;
@@ -94,7 +144,17 @@
     background-color: blueviolet;
     left: -15%;
     border-radius: 20pc;
+    animation-name: jay;
+    animation-duration: 3.2s;
 }
+@keyframes jay {
+    0%   { right:50%; top:-50px;}
+    30%  {left:90%; top:31%;}
+    /* 50%  {left:200px; top:200px;} */
+    60%  { left:40%; top:69%;}
+    /* 100% { left:0px; top:0px;} */
+    }
+
 
 .right {
     display: flex;
@@ -139,3 +199,4 @@
     justify-content: space-evenly;
     gap: 15px;
 }
+
