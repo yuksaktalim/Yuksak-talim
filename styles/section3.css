@@ -15,6 +15,7 @@
 .text-sec3 h1 {
     margin: 20px;
     color: #132026;
+    padding: 0 10px 0 10px;
     border-bottom: 3px solid #FFC94B;
 }
 
@@ -54,6 +55,7 @@
 .artic p {
     font-size: 14px;
     padding-top: 6px;
+    height: 70px;
 }
 
 .artic img {
@@ -105,7 +107,7 @@
     flex-direction: row;
     justify-content: space-around;
     font-size: 13px;
-    padding-top: 10px;
+    margin-top: 10px;
     align-items: center;
 }
 
