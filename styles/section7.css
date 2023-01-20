@@ -1,11 +1,9 @@
 #footer {
     background-color: #132026;
-    border-top-left-radius: 500px;
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 440px;
-    /* bottom: 0; */
-    margin-top: 300px;
+    height: 510px;
+    margin-top: 350px;
 }
 
 .form {
@@ -39,7 +37,8 @@
 
 .form__item {
     display: flex;
-    gap: 20px;
+    gap: 7px;
+    align-items: center;
 }
 
 .form__item1 {
@@ -48,15 +47,18 @@
 
 .form input {
     padding: 15px 15px;
-    width: 600px;
-    margin: 0px 0px 10px 0px;
-    border: 1px solid #ffc94b;
+    width: 333px;
+    height: 10px;
+    margin: 0px 0px 7px 0px;
+    border: none;
     background-color: #132026;
     color: #ffc94b;
+    font-size: 15px;
+    border-radius: 17px;
 }
 
 .form input:focus {
-    outline: 2px solid #ffc94b;
+    outline: none;
     transition: 0.1s;
 }
 
@@ -65,30 +67,89 @@
     opacity: 1;
 }
 
+.fname-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ffc94b;
+    height: 40px;
+    margin: 0px 0px 7px 0px;
+    border-radius: 15px;
+}
+
+.fname-container i {
+    margin: 12px 7px;
+}
+
+.lname-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ffc94b;
+    height: 40px;
+    margin: 0px 0px 7px 0px;
+    border-radius: 15px;
+}
+
+.lname-container i {
+    margin: 12px 7px;
+}
+
+.tel-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ffc94b;
+    height: 40px;
+    border-radius: 15px;
+    width: 391px;
+}
+
+.tel-container i {
+    margin: 12px 6px;
+}
+
+.direction-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ffc94b;
+    border-radius: 15px;
+    height: 40px;
+    width: 400px;
+}
+
+.direction-container i {
+    margin: 10px 7px;
+    font-size: 20px;
+}
+
 .form select {
-    width: 652px;
-    height: 46px;
+    width: 360px;
+    height: 33px !important;
     background-color: #132026;
     color: #ffc94b;
-    border: 1px solid #ffc94b;
+    border: none;
+    font-size: 15px;
+    margin-top: 4px;
+    border-radius: 15px;
 }
 
 .form select:active {
-    outline: 1px solid #ffc94b;
+    outline: none;
 }
 
-.form select::after {
-    outline: 1px solid #ffc94b;
+.form select:active::after {
+    outline: none;
 }
 
 .form textarea {
     width: 97.4%;
     height: 100px;
     margin-bottom: 10px;
+    margin-top: 10px;
     background-color: #132026;
     color: #ffc94b;
     border: 1px solid #ffc94b;
     padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
 }
 
 .form textarea:active {
@@ -101,19 +162,22 @@
     color: #132026;
     background-color: #ffc94b;
     border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 80%;
 }
 
 .form button:hover {
     box-shadow: 0 3px 7px rgb(255 201 75 / 50%) !important;
-    transition: 0.3s ease-in-out;   
+    transition: 0.3s ease-in-out;
 }
 
 .content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     position: relative;
-    top: 210px;
-    color: #fff;
+    top: 280px;
+    color: #ffc94b;
     height: 230px;
 }
 
@@ -124,16 +188,15 @@
 
 .content ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #ffc94b;
 }
 
 .content ul li a:hover {
     text-decoration: underline;
-    color: #000;
 }
 
 .content i {
-    color: #fff;
+    color: #ffc94b;
     padding: 0px 3px;
 }
 
@@ -156,23 +219,6 @@ hr {
 
     .form h1 {
         margin-top: 50px !important;
-    }
-
-    .border {
-        width: 410px;
-        top: 10px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 25px, transparent 25px) 0% 0%/30px 30px no-repeat,
-            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 25px, transparent 25px) 100% 0%/30px 30px no-repeat,
-            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 25px, transparent 25px) 0% 100%/30px 30px no-repeat,
-            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 25px, transparent 25px) 100% 100%/30px 30px no-repeat,
-            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 60px) no-repeat,
-            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 10px) no-repeat,
-            linear-gradient(300deg, transparent 0%, goldenrod 100%);
-        border-radius: 30px;
-        padding: 9px;
-        box-sizing: border-box;
     }
 
     .form input {
@@ -208,22 +254,6 @@ hr {
         margin-top: 10px;
     }
 
-    .border {
-        width: 310px;
-        height: 310px;
-        margin-top: 10px;
-        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 25px, transparent 25px) 0% 0%/30px 30px no-repeat,
-            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 25px, transparent 25px) 100% 0%/30px 30px no-repeat,
-            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 25px, transparent 25px) 0% 100%/30px 30px no-repeat,
-            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 25px, transparent 25px) 100% 100%/30px 30px no-repeat,
-            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 60px) no-repeat,
-            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 10px) no-repeat,
-            linear-gradient(316deg, transparent 0%, goldenrod 100%);
-        border-radius: 30px;
-        padding: 9px;
-        box-sizing: border-box;
-    }
-
     .form__item {
         display: grid;
     }
@@ -253,21 +283,6 @@ hr {
     .form {
         width: 250px;
         height: 300px;
-    }
-
-    .border {
-        width: 260px;
-        height: 320px;
-        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 25px, transparent 25px) 0% 0%/30px 30px no-repeat,
-            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 25px, transparent 25px) 100% 0%/30px 30px no-repeat,
-            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 25px, transparent 25px) 0% 100%/30px 30px no-repeat,
-            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 25px, transparent 25px) 100% 100%/30px 30px no-repeat,
-            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 60px) no-repeat,
-            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 10px) no-repeat,
-            linear-gradient(322deg, transparent 0%, goldenrod 100%);
-        border-radius: 30px;
-        padding: 9px;
-        box-sizing: border-box;
     }
 
     .form h1 {
