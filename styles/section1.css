@@ -6,6 +6,9 @@
   /* background-color: rgb(139, 206, 247); */
   background-color: #132026;
   height: 70px;
+  /* z-index: 3;
+  width: 100%;
+  position: fixed; */
 }
 
 .navbar {
@@ -57,6 +60,7 @@
 } */
 
 .sec1 {
+  /* margin-top: 70px; */
   position: relative;
   align-items: center;
   height: 550px;

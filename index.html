@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- <meta name="viewport" content="width=1529px"> -->
@@ -30,7 +30,7 @@
     </a>
     <ul class="navbar">
       <li class="nav-item">
-        <a href="">Kurslar</a>
+        <a href="#section3">Kurslar</a>
       </li>
       <li class="nav-item">
         <a href="">Yangiliklar</a>
@@ -45,7 +45,7 @@
         <a href="">About</a>
       </li>
     </ul>
-    <button>Ro'yhatdan o'tish</button>
+    <button><a href="#footer">Ro'yhatdan o'tish</a></button>
   </header>
   <main>
     <section class="sec1">
@@ -138,7 +138,7 @@
           </div>
         </div>
       </section>
-      <section class="section3">
+      <section id="section3">
         <div class="text-sec3">
           <h1>Mashhur Kurslarimmiz</h1>
           <p>
@@ -338,37 +338,41 @@
     </section>
   </main>
   <footer id="footer">
-    <!-- <div class="border"></div>
-    <form class="form">
-      
-      <div class="form__item">
-        <input type="text" placeholder="Enter your email adress" />
-        <button type="reset">Subscribe</button>
-      </div>
-    </form> -->
     <form class="form">
       <h1>Biz bilan bog'lanish</h1>
       <p>Biz bilan bog'lanish uchun anketani to'ldiring</p>
       <div class="form__item">
         <!-- <label>Ismingizni Yozing</label> -->
-        <input type="text" placeholder="Ismingiz">
+        <div class="fname-container">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Ismingiz">
+        </div>
         <!-- <label>Familiyangini Yozing</label> -->
+        <div class="lname-container">
+          <i class="fa-solid fa-user"></i>
         <input type="text" placeholder="Familiyangiz">
+        </div>
       </div>
       <div class="form__item">
         <!-- <label>Telefon Raqam</label> -->
-        <input type="tel" placeholder="1 (702) 123 - 4567" value="+998">
-        <select name="direction" id="direction">
-          <option value="Front-end">Front-end</option>
-          <option value="Back-end">Back-end</option>
-          <option value="3D Max">3D Max</option>
-          <option value="Grafik Dizayn">Grafik Dizayn</option>
-          <option value="Kampiyuter Savodhonligi">Kompiyuter Savodholigi</option>
-          <option value="Ingili tili">Ingtiliz tili</option>
-          <option value="Rus tili">Rus tili</option>
-          <option value="Arab tili">Arab tili</option>
-          <option value="Kores tili">Kores tili</option>
-        </select>
+        <div class="tel-container">
+          <i class="fa-solid fa-phone"></i>
+          <input type="tel" placeholder="1 (702) 123 - 4567" value="+998">
+        </div>
+        <div class="direction-container">
+          <i class="fa-regular fa-compass"></i>
+          <select name="direction" id="direction">
+            <option value="Front-end">Front-end</option>
+            <option value="Back-end">Back-end</option>
+            <option value="3D Max">3D Max</option>
+            <option value="Grafik Dizayn">Grafik Dizayn</option>
+            <option value="Kampiyuter Savodhonligi">Kompiyuter Savodholigi</option>
+            <option value="Ingili tili">Ingtiliz tili</option>
+            <option value="Rus tili">Rus tili</option>
+            <option value="Arab tili">Arab tili</option>
+            <option value="Kores tili">Kores tili</option>
+          </select>
+        </div>
       </div>
       <div class="form__item1">
         <textarea name="text" cols="30" rows="10" placeholder="Taklif Talablar Uchun"></textarea>
