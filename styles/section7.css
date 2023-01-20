@@ -99,6 +99,7 @@
     border: 2px solid #ffc94b;
     height: 40px;
     border-radius: 15px;
+    width: 391px;
 }
 
 .tel-container i {
@@ -111,6 +112,7 @@
     border: 2px solid #ffc94b;
     border-radius: 15px;
     height: 40px;
+    width: 400px;
 }
 
 .direction-container i {
@@ -161,6 +163,8 @@
     background-color: #ffc94b;
     border: none;
     border-radius: 15px;
+    font-size: 20px;
+    margin-left: 80%;
 }
 
 .form button:hover {
