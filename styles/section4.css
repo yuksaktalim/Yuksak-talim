@@ -56,26 +56,3 @@
     border: 0.5px solid rgb(38, 38, 245);
     color: rgb(23, 0, 92);
 }
-
-
-.custom-shape-divider-top-1673088814 {
-    position: absolute;
-    top: 30%;
-    right: 26%;
-    width: 20%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-top-1673088814 svg {
-    position: relative;
-    display: block;
-    width: calc(700% + 1.1px);
-    height: 250px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1673088814 .shape-fill {
-    fill: #bbb;
-}

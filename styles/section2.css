@@ -28,7 +28,24 @@
     width: 300px;
     border: 2px solid green;
     border-radius: 100px 200px;
+    /* animation-name: start;
+    animation-duration: 5s; */
+    /* transition: all 2.5s ease-in-out; */
+    /* transition-delay: 2s;  */
+    /* transform: rotateZ(360deg); */
+    /* animation-timing-function: ease-in-out; */
+
+    
+
 }
+/* @keyframes start {
+    0% {
+        
+    }
+} */
+
+
+
 
 .shape1 {
     position: absolute;
@@ -40,8 +57,9 @@
     left: -15%;
     border-top-left-radius: 50pc;
     animation-name: example;
-    animation-duration: 4s;
-    animation-delay: -2s;
+    animation-duration: 2.8s;
+    animation-delay: -0.8s;
+    transition: ease 3s;
 }
 
 
@@ -64,8 +82,9 @@
     right: -20%;
     border-top-right-radius: 100px;
     animation-name: vay;
-    animation-duration: 3.3s;
-    animation-delay: -1s;
+    animation-duration: 2.9s;
+    animation-delay: -0.3s;
+    /* transition: ease 3.3s; */
 }
 
 @keyframes vay {
@@ -102,8 +121,10 @@
     top: 85%;
     left: -15%;
     animation-name: hay;
-    animation-duration: 2.9s;
-    animation-delay: -0.3s;
+    animation-duration: 2.4s;
+    animation-delay: -0.1s;
+    /* transition: ease 2.9s; */
+    
 }
 
 @keyframes hay {
@@ -125,7 +146,8 @@
     top: 55%;
     right: -20%;
     animation-name: tay;
-    animation-duration: 3.4s;
+    animation-duration: 2.9s;
+    transition: ease 2.9s;
 }
 
 @keyframes tay {
@@ -145,14 +167,14 @@
     left: -15%;
     border-radius: 20pc;
     animation-name: jay;
-    animation-duration: 3.2s;
+    animation-duration: 2.8s;
+    transition: ease 2.8s;
 }
 @keyframes jay {
     0%   { right:50%; top:-50px;}
     30%  {left:90%; top:31%;}
-    /* 50%  {left:200px; top:200px;} */
     60%  { left:40%; top:69%;}
-    /* 100% { left:0px; top:0px;} */
+    
     }
 
 

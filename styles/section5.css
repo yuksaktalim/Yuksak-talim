@@ -76,11 +76,6 @@
     color: #fff;
     text-decoration: none;
 }
-
-/* .sec-div a:hover {
-    color: rgb(64, 0, 255);
-} */
-
 .button:hover {
     background-color: white;
     transition-duration: 0.6s;
