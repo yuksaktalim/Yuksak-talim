@@ -1,97 +1,3 @@
-/* .section5 {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: white;
-    margin: auto;
-    width: 80%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    padding: 10px;
-    padding-bottom: 5%;
-    border-radius: 10%;
-}
-
-
-.overall-div {
-    flex-direction: column;
-    justify-content: center;
-    border: 2px solid grey;
-    width:100%;
-}
-
-.sec-div1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    width: 80%;
-}
-
-.sec-div2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
-    width: 80%;
-    padding: 5px;
-}
-
-.sec-div {
-    font-size: 11px;
-    width: 270px;
-    height: 330px;
-    border: 1px solid grey;
-    margin: 20px;
-    text-align: center;
-    border-radius: 20px;
-    background-color: white;
-}
-
-.imgsec5 {
-    margin-top: 10px;
-    width: 240px;
-    height: 190px;
-
-}
-
-.text-sec5 {
-    position: relative;
-    top: 20px;
-    text-align: center;
-}
-.text-sec5 h1{
-    font-size: 36px;
-    padding-top: 85px;
-}
-.text-sec5 p{
-    font-size: 16px;
-    padding: 25px;
-    padding-bottom: 45px;
-}
-
-.button-sec5 {
-    position: relative;
-    top: 20px;
-    width: 135px;
-    height: 45px;
-    text-align: center;
-    border-radius: 10px;
-    border: none;
-    background-color: #6e7cff;
-    font-size: 14px;
-}
-
-.sec-div a {
-    color: #fff;
-    text-decoration: none;
-}
-.button:hover {
-    background-color: white;
-    transition-duration: 0.6s;
-    border: 2px solid rgb(64, 0, 255);
-    cursor: pointer;
-} */
 
 
 .big-div1 {
@@ -126,36 +32,7 @@
 
 }
 
-/* .h1-img1 {
-    display: flex;
-    flex-direction: row;
-}
 
-.h1-img2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.h1-img3 {
-    display: flex;
-    flex-direction: row;
-}
-
-.h1-img4 {
-    display: flex;
-    flex-direction: row;
-}
-
-.h1-img5 {
-    display: flex;
-    flex-direction: row;
-}
-
-.h1-img6 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
 
 .text-h1 {
 
@@ -175,6 +52,7 @@
 }
 
 .img-1 {
+    height: 100%;
     width: 100%;
     align-items: center;
     border-top-left-radius: 20px;
@@ -205,4 +83,5 @@
 .tekst {
     width: 100%;
     height: 50%;
+    
 }
