@@ -27,7 +27,7 @@
 .sixpart {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* width: 80%; */
     /* margin: 0 auto; */
 
@@ -93,14 +93,13 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
     background-size: contain;
-    background-image: url(/images/section6/DSC00931.png);
+    background-image: url(/images/section6/1.jpg);
     background-repeat: no-repeat;
     background-position: 80% 70%;
 }
 
 .headshot-1 {
     border-radius: 50%;
-    background-color: #48abe0;
 }
 
 .headshot2 {
@@ -113,8 +112,9 @@
     position: relative;
     top: 0;
     left: 35%;
-    background-image: url(/images/section6/im1.png);
+    background-image: url(/images/section6/2.jpg);
     background-position: 80% 25%;
+    border: 5px solid #fa903e;
 }
 
 .headshot3 {
@@ -127,8 +127,9 @@
     position: absolute;
     left: 0;
     top: 35%;
-    background-image: url(/images/section6/im2.png);
-    background-position: 80% 14%;
+    background-image: url(/images/section6/3.jpg);
+    background-position: 80% 12%;
+    border: 5px solid #0076ff;
 }
 
 .headshot4 {
@@ -142,8 +143,9 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    background-image: url(/images/section6/im3.png);
-    background-position: 80% 12%;
+    background-image: url(/images/section6/4.jpg);
+    background-position: 80% 27%;
+    border: 5px solid #7e24a4;
 }
 
 .headshot2-1 {
@@ -156,8 +158,9 @@
     background-size: cover;
     position: absolute;
     left: 35%;
-    background-image: url(/images/section6/im4.png);
-    background-position: 80% 25%;
+    background-image: url(/images/section6/5.jpg);
+    background-position: 80% 22%;
+    border: 5px solid #ff0000;
 }
 
 .headshot3-1 {
@@ -171,8 +174,9 @@
     position: absolute;
     right: 0;
     top: 35%;
-    background-image: url(/images/section6/im6.png);
-    background-position: 80% 25%;
+    background-image: url(/images/section6/6.jpg);
+    background-position: 80% 15%;
+    border: 5px solid #029b69;
 }
 
 .headshot4-1 {
@@ -186,8 +190,9 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    background-image: url(/images/section6/im7.png);
-    background-position: 80% 25%;
+    background-image: url(/images/section6/7.jpg);
+    background-position: 80% 23%;
+    border: 5px solid #39b5fa;
 }
 
 .fadeIn1 {
