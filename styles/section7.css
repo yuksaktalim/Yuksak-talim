@@ -7,6 +7,27 @@
     background-color: #132026;
 }
 
+.custom-shape-divider-top-1674295130 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1674295130 svg {
+    position: relative;
+    display: block;
+    width: calc(166% + 1.3px);
+    height: 158px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1674295130 .shape-fill {
+    fill: #FFFFFF;
+}
+
 #form {
     display: flex;
     flex-direction: column;
@@ -27,6 +48,10 @@
     text-align: center;
 }
 
+#from p {
+    color: gray;
+}
+
 .name {
     margin-left: 8%;
 }
@@ -40,7 +65,7 @@
     width: 403px;
 }
 
-#form button {
+.submit {
     margin-left: 8%;
     width: 339px;
     color: #ffc94b;
@@ -51,10 +76,10 @@
     font-size: 17px;
 }
 
-#form button:hover {
+.submit:hover {
     color: #132026;
     background-color: #ffc94b;
-    box-shadow: 0 10px 15px rgb(255 201 75 / 50%) !important;
+    box-shadow: 0 3px 7px rgb(255 201 75 / 50%) !important;
     transition: 0.3s;
 }
 
