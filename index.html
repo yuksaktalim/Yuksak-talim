@@ -30,7 +30,7 @@
     </a>
     <ul class="navbar">
       <li class="nav-item">
-        <a href="#section3">Kurslar</a>
+        <a href="#section3-title">Kurslar</a>
       </li>
       <li class="nav-item">
         <a href="">Yangiliklar</a>
@@ -42,7 +42,7 @@
         <a href="">About</a>
       </li>
     </ul>
-    <a href="#footer" class="button">Ro'yhatdan o'tish</a>
+    <a href="#form__text" class="button">Ro'yhatdan o'tish</a>
   </header>
   <main>
     <section class="sec1">
@@ -335,46 +335,48 @@
     </section>
   </main>
   <footer id="footer">
-    <form class="form">
-      <h1>Biz bilan bog'lanish</h1>
-      <p>Biz bilan bog'lanish uchun anketani to'ldiring <br> biz sizga aloqaga chiqamiz</p>
-      <div class="form__item">
-        <!-- <label>Ismingizni Yozing</label> -->
-        <div class="fname-container">
-          <i class="fa-solid fa-user"></i>
-          <input type="text" placeholder="Ismingiz">
-        </div>
-        <!-- <label>Familiyangini Yozing</label> -->
-        <div class="lname-container">
-          <i class="fa-solid fa-user"></i>
-        <input type="text" placeholder="Familiyangiz">
-        </div>
+    <div class="custom-shape-divider-top-1674295130">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+  </div>
+    <form id="form">
+      <div class="title">
+        <h1 id="form__text"><span>Ro'yhatdan</span> o'tish</h1>
+        <p>Iltimos anketani to'ldiring biz sizga bog'lanamiz</p>
       </div>
-      <div class="form__item">
-        <!-- <label>Telefon Raqam</label> -->
-        <div class="tel-container">
-          <i class="fa-solid fa-phone"></i>
-          <input type="tel" placeholder="1 (702) 123 - 4567" value="+998">
-        </div>
-        <div class="direction-container">
-          <i class="fa-regular fa-compass"></i>
-          <select name="direction" id="direction">
-            <option value="Front-end">Front-end</option>
-            <option value="Back-end">Back-end</option>
-            <option value="3D Max">3D Max</option>
-            <option value="Grafik Dizayn">Grafik Dizayn</option>
-            <option value="Kampiyuter Savodhonligi">Kompiyuter Savodholigi</option>
-            <option value="Ingili tili">Ingtiliz tili</option>
-            <option value="Rus tili">Rus tili</option>
-            <option value="Arab tili">Arab tili</option>
-            <option value="Kores tili">Kores tili</option>
-          </select>
-        </div>
+      <div class="name">
+        <label>Ism va Familiyangizni yozing</label>
+      <div class="name-container">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Ism, Familiyangiz">
       </div>
-      <div class="form__item1">
-        <textarea name="text" cols="30" rows="10" placeholder="Taklif Talablar Uchun"></textarea>
-        <button type="submit">Jo'natish</button>
       </div>
+      <div class="phone-number">
+        <label>Telefon Raqam</label>
+      <div class="phone-container">
+        <i class="fa-solid fa-phone"></i>
+        <input type="text" placeholder="Telefon raqam">
+      </div>
+      </div>
+      <div class="selects">
+        <label>Yo'nalishingiz</label>
+      <div class="direction-container">
+        <i class="fa-regular fa-compass"></i>
+        <select name="direction" id="direction">
+          <option value="Front-end">Front-end</option>
+          <option value="Back-end">Back-end</option>
+          <option value="3D Max">3D Max</option>
+          <option value="Grafik Dizayn">Grafik Dizayn</option>
+          <option value="Kampiyuter Savodhonligi">Kompiyuter Savodholigi</option>
+          <option value="Ingili tili">Ingtiliz tili</option>
+          <option value="Rus tili">Rus tili</option>
+          <option value="Arab tili">Arab tili</option>
+          <option value="Kores tili">Kores tili</option>
+        </select>
+      </div>
+      </div>
+      <button type="submit" class="submit">Jo'natish</button>
     </form>
     <div class="content">
       <div class="content__items">
