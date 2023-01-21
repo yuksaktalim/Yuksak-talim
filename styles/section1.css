@@ -6,9 +6,9 @@
   /* background-color: rgb(139, 206, 247); */
   background-color: #132026;
   height: 70px;
-  /* z-index: 3;
+  z-index: 3;
   width: 100%;
-  position: fixed; */
+  position: fixed;
 }
 
 .navbar {
@@ -32,22 +32,23 @@
   transition: 0.3s ease-out;
 }
 
-.header button {
+.header .button {
+  padding: 10px 20px;
   border: none;
-  width: 150px;
-  height: 40px;
   background-color: #132026;
-  border: 1px solid #FFC94B;
+  outline: 1px solid #FFC94B;
   color: #FFC94B;
   border-radius: 10px;
+  text-align: center;
 }
 
-.header button:hover {
+.header .button:hover {
   background-color: #FFC94B;
   color: #132026;
   cursor: pointer;
   box-shadow: 0 3px 7px rgb(255 201 75 / 50%) !important;
   transition: 0.3s ease-in-out;
+  border: none;
 }
 
 .header a {
@@ -60,7 +61,7 @@
 } */
 
 .sec1 {
-  /* margin-top: 70px; */
+  margin-top: 70px;
   position: relative;
   align-items: center;
   height: 550px;

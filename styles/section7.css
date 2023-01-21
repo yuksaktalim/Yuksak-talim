@@ -28,7 +28,7 @@
 }
 
 .form p {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .form__item:nth-child(1) {
@@ -112,7 +112,7 @@
     border: 2px solid #ffc94b;
     border-radius: 15px;
     height: 40px;
-    width: 400px;
+    width: 392px;
 }
 
 .direction-container i {
@@ -157,7 +157,7 @@
 }
 
 .form button {
-    padding: 20px 30px;
+    padding: 17px 30px;
     cursor: pointer;
     color: #132026;
     background-color: #ffc94b;
@@ -165,6 +165,7 @@
     border-radius: 15px;
     font-size: 20px;
     margin-left: 80%;
+    margin-top: 0px;
 }
 
 .form button:hover {
