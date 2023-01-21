@@ -106,7 +106,7 @@ select,
   width: 86%;
 }
 
-#form input:focus {
+#form input {
   outline: none;
 }
 
@@ -138,6 +138,7 @@ select,
   width: 340px;
   margin-top: 10px;
 }
+
 
 #form .direction-container {
   border: 1px solid #fff;
