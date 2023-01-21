@@ -110,7 +110,10 @@
 }
 
 .change-image-3 {
-    background-image: url(/images/section6/3.jpg);
+    /* background-image: url(/images/section6/4.jpg);
+    border-color: #7e24a4;
+    background-position: center -15%;
+    background-size: 60px 120px; */
 }
 
 .radius {
