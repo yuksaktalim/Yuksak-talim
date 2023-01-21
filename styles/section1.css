@@ -9,6 +9,7 @@
   width: 100%;
   position: fixed;
 }
+
 .custom-shape-divider-bottom-1674298327 {
   position: absolute;
   bottom: 0;
@@ -29,6 +30,7 @@
 .custom-shape-divider-bottom-1674298327 .shape-fill {
   fill: #FFFFFF;
 }
+
 .navbar {
   display: flex;
   flex-direction: row;
