@@ -1,6 +1,6 @@
-.section5 {
+/* .section5 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #eaf0ff;
+    background-color: white;
     margin: auto;
     width: 80%;
     margin-top: 15%;
@@ -10,9 +10,18 @@
     border-radius: 10%;
 }
 
+
+.overall-div {
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid grey;
+    width:100%;
+}
+
 .sec-div1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
     width: 80%;
@@ -22,6 +31,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     margin: auto;
     width: 80%;
     padding: 5px;
@@ -31,7 +41,7 @@
     font-size: 11px;
     width: 270px;
     height: 330px;
-    border: 1px solid white;
+    border: 1px solid grey;
     margin: 20px;
     text-align: center;
     border-radius: 20px;
@@ -81,4 +91,93 @@
     transition-duration: 0.6s;
     border: 2px solid rgb(64, 0, 255);
     cursor: pointer;
+} */
+
+
+.big-div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding: 10px;
 }
+
+.big-div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding: 20px;
+}
+
+.divs {
+    display: inline-block;
+    width: 300px;
+    height: 320px;
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 1px 28px -1px rgba(19, 32, 38, 0.33);
+    -moz-box-shadow: 2px 1px 28px -1px rgba(19, 32, 38, 0.33);
+    box-shadow: 2px 1px 28px -1px rgba(19, 32, 38, 0.33);
+
+}
+
+/* .h1-img1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.h1-img2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.h1-img3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.h1-img4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.h1-img5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.h1-img6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.text-h1 {
+
+    text-align: center;
+}
+
+.text-p {
+    font-size: 18px;
+    color: grey;
+}
+
+
+.beginning {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.img-1 {
+    height: 190px;
+    width: 300px;
+    align-items: center;
+    /* position: absolute; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
