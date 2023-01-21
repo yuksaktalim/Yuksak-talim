@@ -27,32 +27,43 @@
 .sixpart {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* width: 80%; */
     /* margin: 0 auto; */
-
 }
 
 .part2-1 {
-    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 76px, transparent 76px) 0% 0%/80px 80px no-repeat,
+    background: radial-gradient(circle at 100% 100%,
+            #ffffff 0,
+            #ffffff 76px,
+            transparent 76px) 0% 0%/80px 80px no-repeat,
         radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 76px, transparent 76px) 100% 0%/80px 80px no-repeat,
         radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 76px, transparent 76px) 0% 100%/80px 80px no-repeat,
         radial-gradient(circle at 0 0, #ffffff 0, #ffffff 76px, transparent 76px) 100% 100%/80px 80px no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 160px) no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 160px) calc(100% - 8px) no-repeat,
-        linear-gradient(312deg, transparent 65%, rgba(72, 171, 224, 0.424) 77%, #48abe0 100%);
+        linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 8px) calc(100% - 160px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 160px) calc(100% - 8px) no-repeat,
+        linear-gradient(312deg,
+            transparent 65%,
+            rgba(72, 171, 224, 0.424) 77%,
+            #48abe0 100%);
     border-radius: 80px;
     width: 45%;
 }
 
 .part2 {
-    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 76px, transparent 76px) 0% 0%/80px 80px no-repeat,
+    background: radial-gradient(circle at 100% 100%,
+            #ffffff 0,
+            #ffffff 76px,
+            transparent 76px) 0% 0%/80px 80px no-repeat,
         radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 76px, transparent 76px) 100% 0%/80px 80px no-repeat,
         radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 76px, transparent 76px) 0% 100%/80px 80px no-repeat,
         radial-gradient(circle at 0 0, #ffffff 0, #ffffff 76px, transparent 76px) 100% 100%/80px 80px no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 160px) no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 160px) calc(100% - 8px) no-repeat,
-        linear-gradient(135deg, transparent 65%, rgba(72, 171, 224, 0.424) 77%, #48abe0 100%);
+        linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 8px) calc(100% - 160px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 160px) calc(100% - 8px) no-repeat,
+        linear-gradient(135deg,
+            transparent 65%,
+            rgba(72, 171, 224, 0.424) 77%,
+            #48abe0 100%);
     border-radius: 80px;
     padding: 24px;
     box-sizing: border-box;
@@ -89,21 +100,24 @@
     flex-shrink: 0;
     height: calc(0px + 6vw);
     width: calc(0px + 6vw);
-    border: calc(2px + 0.2vw) solid #FFC94B;
+    border: calc(2px + 0.2vw) solid #ffc94b;
     background-origin: border-box;
     background-clip: content-box, border-box;
     background-size: contain;
-    background-image: url(/images/section6/DSC00931.png);
+    background-image: url(/images/section6/1.jpg);
     background-repeat: no-repeat;
     background-position: 80% 70%;
 }
 
-.headshot-1 {
-    border-radius: 50%;
-    background-color: #48abe0;
+.change-image-3 {
+    background-image: url(/images/section6/3.jpg);
 }
 
-.headshot2 {
+.radius {
+    border-radius: 50%;
+}
+
+.circle1 {
     height: calc(-10px + 6vw);
     width: calc(-10px + 6vw);
     /* border: calc(2px + 0.2vw) solid transparent;
@@ -113,11 +127,12 @@
     position: relative;
     top: 0;
     left: 35%;
-    background-image: url(/images/section6/im1.png);
+    background-image: url(/images/section6/2.jpg);
     background-position: 80% 25%;
+    border: 5px solid #fa903e;
 }
 
-.headshot3 {
+.circle2 {
     height: calc(-10px + 5vw);
     width: calc(-10px + 5vw);
     /* border: calc(2px + 0.2vw) solid transparent;
@@ -127,26 +142,31 @@
     position: absolute;
     left: 0;
     top: 35%;
-    background-image: url(/images/section6/im2.png);
-    background-position: 80% 14%;
+    background-image: url(/images/section6/3.jpg);
+    background-position: 80% 10%;
+    border: 5px solid #0076ff;
 }
 
-.headshot4 {
+.circle3 {
     flex-shrink: 0;
     height: calc(-20px + 6vw);
     width: calc(-20px + 6vw);
-    /* border: calc(2px + 0.2vw) solid transparent;
-    background-origin: border-box; */
     background-clip: content-box, border-box;
     background-size: cover;
     position: absolute;
     bottom: 0;
     right: 0;
-    background-image: url(/images/section6/im3.png);
-    background-position: 80% 12%;
+    background-image: url(/images/section6/4.jpg);
+    background-position: 80% 27%;
+    cursor: pointer;
+    border: 5px solid #7e24a4;
 }
 
-.headshot2-1 {
+.circle3:hover {
+    filter: opacity(0.9);
+}
+
+.circle4 {
     /* flex-shrink: 0; */
     height: calc(-10px + 6vw);
     width: calc(-10px + 6vw);
@@ -156,11 +176,12 @@
     background-size: cover;
     position: absolute;
     left: 35%;
-    background-image: url(/images/section6/im4.png);
-    background-position: 80% 25%;
+    background-image: url(/images/section6/5.jpg);
+    background-position: 80% 22%;
+    border: 5px solid #ff0000;
 }
 
-.headshot3-1 {
+.circle5 {
     /* flex-shrink: 0; */
     height: calc(-10px + 5vw);
     width: calc(-10px + 5vw);
@@ -171,23 +192,23 @@
     position: absolute;
     right: 0;
     top: 35%;
-    background-image: url(/images/section6/im6.png);
-    background-position: 80% 25%;
+    background-image: url(/images/section6/6.jpg);
+    background-position: 80% 10%;
+    border: 5px solid #029b69;
 }
 
-.headshot4-1 {
+.circle6 {
     /* flex-shrink: 0; */
     height: calc(-20px + 6vw);
     width: calc(-20px + 6vw);
-    /* border: calc(2px + 0.2vw) solid transparent;
-    background-origin: border-box; */
     background-clip: content-box, border-box;
     background-size: cover;
     position: absolute;
     left: 0;
     bottom: 0;
-    background-image: url(/images/section6/im7.png);
-    background-position: 80% 25%;
+    background-image: url(/images/section6/7.jpg);
+    background-position: 80% 23%;
+    border: 5px solid #39b5fa;
 }
 
 .fadeIn1 {
