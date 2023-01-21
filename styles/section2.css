@@ -26,7 +26,7 @@
     position: relative;
     height: 400px;
     width: 300px;
-    border: 2px solid green;
+    border: 2px solid black;
     border-radius: 100px 200px;
 
     
@@ -39,9 +39,9 @@
     position: absolute;
     height: 150px;
     width: 100px;
-    border: solid 2px green;
+    border: solid 2px red;
     top: -20%;
-    background-color: red;
+    background-color: white;
     left: -15%;
     border-top-left-radius: 50pc;
     animation-name: example;
@@ -64,15 +64,21 @@
     position: absolute;
     height: 130px;
     width: 260px;
-    border: 2px solid green;
+    border: 2px solid violet;
     top: -10%;
-    background-color: green;
+    background-color:  white;
     right: -20%;
     border-top-right-radius: 100px;
     animation-name: vay;
     animation-duration: 2.6s;
     animation-delay: -0.1s;
-    /* transition: ease 3.3s; */
+    background-image: url(/images/images-section2/2\ violet.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 55px;
+    background-clip: border-box;
+    background-size: 120px;
+    
 }
 
 @keyframes vay {
@@ -88,9 +94,9 @@
 .shape3 {
     position: absolute;
     width: 150px;
-    background-color: blue;
+    background-color: white;
     height: 150px;
-    border: 2px solid green;
+    border: 2px solid yellow;
     border-radius: 100px;
     top: 30%;
     left: 30%;
@@ -101,9 +107,9 @@
 
 .shape4 {
     position: absolute;
-    border: 2px solid green;
+    border: 2px solid blue;
     height: 120px;
-    background-color: yellow;
+    background-color: white;
     width: 260px;
     border-bottom-left-radius: 100px;
     top: 85%;
@@ -112,6 +118,13 @@
     animation-duration: 2.2s;
     animation-delay: -0.1s;
     /* transition: ease 2.9s; */
+    background-image: url(/images/images-section2/blue.jpg);
+    /* background-position: 95px; */
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: 125px;
+    background-position: 80px -10px ;
+    
     
 }
 
@@ -126,16 +139,20 @@
 
 .shape5 {
     position: absolute;
-    border: 2px solid green;
+    border: 2px solid  green;
     border-bottom-right-radius: 40pc;
     height: 190px;
     width: 100px;
-    background-color: brown;
+    background-color: white;
     top: 55%;
     right: -20%;
     animation-name: tay;
     animation-duration: 2.7s;
     transition: ease 2.7s;
+    background-image: url(/images/images-section2/red.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: -26px   -25px;
 }
 
 @keyframes tay {
@@ -147,16 +164,23 @@
 
 .shape6 {
     position: absolute;
-    border: 2px solid green;
+    border: 2px solid pink;
     height: 170px;
     width: 100px;
     top: 31%;
-    background-color: blueviolet;
+    background-color: white;
     left: -15%;
     border-radius: 20pc;
     animation-name: jay;
     animation-duration: 2.6s;
     transition: ease 2.6s;
+    background-image: url(/images/images-section2/last\ pink.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%  5%;
+    background-size: 140px;
+    
+
 }
 @keyframes jay {
     0%   { right:50%; top:-50px;}
