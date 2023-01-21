@@ -45,8 +45,8 @@
     left: -15%;
     border-top-left-radius: 50pc;
     animation-name: example;
-    animation-duration: 2.8s;
-    animation-delay: -0.8s;
+    animation-duration: 2.6s;
+    animation-delay: -0.6s;
     transition: ease 3s;
 }
 
@@ -70,8 +70,8 @@
     right: -20%;
     border-top-right-radius: 100px;
     animation-name: vay;
-    animation-duration: 2.9s;
-    animation-delay: -0.3s;
+    animation-duration: 2.6s;
+    animation-delay: -0.1s;
     /* transition: ease 3.3s; */
 }
 
@@ -109,7 +109,7 @@
     top: 85%;
     left: -15%;
     animation-name: hay;
-    animation-duration: 2.4s;
+    animation-duration: 2.2s;
     animation-delay: -0.1s;
     /* transition: ease 2.9s; */
     
@@ -134,8 +134,8 @@
     top: 55%;
     right: -20%;
     animation-name: tay;
-    animation-duration: 2.9s;
-    transition: ease 2.9s;
+    animation-duration: 2.7s;
+    transition: ease 2.7s;
 }
 
 @keyframes tay {
@@ -155,8 +155,8 @@
     left: -15%;
     border-radius: 20pc;
     animation-name: jay;
-    animation-duration: 2.8s;
-    transition: ease 2.8s;
+    animation-duration: 2.6s;
+    transition: ease 2.6s;
 }
 @keyframes jay {
     0%   { right:50%; top:-50px;}
