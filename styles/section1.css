@@ -136,12 +136,12 @@ h1 span {
   /* background-color: red; */
   width: 40%;
   position: relative;
-  /* animation-duration: 4s; */
-  /* animation: leftmove 1s 1;
-  animation-timing-function: ease-in-out; */
+  animation-duration: 4s;
+  animation: leftmove 1s 1;
+  animation-timing-function: ease-in-out;
 }
 
-/* @keyframes leftmove {
+@keyframes leftmove {
   from {
     right: 1000px;
   }
@@ -149,7 +149,7 @@ h1 span {
   to {
     right: 0px;
   }
-} */
+}
 
 .text-sec1 {
   display: flex;
@@ -162,16 +162,12 @@ h1 span {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* transform: rotateX(150deg);
-  transform: rotateY(150deg);
-  transform: rotateZ(150deg);
-  transform: rotate(360deg); */
   position: relative;
-  /* animation-duration: 4s;
+  animation-duration: 4s;
   animation: mymove 1s 1;
-  animation-timing-function: ease-in-out; */
+  animation-timing-function: ease-in-out;
 }
-/* 
+
 @keyframes mymove {
   from {
     left: 1000px;
@@ -180,7 +176,7 @@ h1 span {
   to {
     left: 0px;
   }
-} */
+}
 
 .container-right img {
   z-index: 1;
