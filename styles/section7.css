@@ -5,7 +5,7 @@
     height: 510px;
     margin-top: 350px;
     background-color: #132026;
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 .custom-shape-divider-top-1674295130 {
@@ -58,23 +58,20 @@
 }
 
 .form-name {
-    width: 85%;
     margin: 0 auto;
 }
 
 .phone-number {
-    width: 85%;
     margin: 0 auto;
 }
 
 .selects {
-    width: 85%;
     margin: 0 auto;
 }
 
 .submit {
     margin: 0 auto;
-    width: 85%;
+    width: 75%;
     padding: 10px 0px;
     color: #ffc94b;
     background-color: #132026;
@@ -105,7 +102,8 @@ select,
     border: none;
     background-color: #132026;
     color: #fff;
-    height: 35px;
+    height: 36px;
+    width: 86%;
 }
 
 #form input:focus {
@@ -128,7 +126,7 @@ select,
     border: 1px solid #fff;
     width: 340px;
     margin-top: 10px;
-    height: 37px;
+    height: 38px;
 }
 
 #form i {
@@ -141,7 +139,7 @@ select,
     border: 1px solid #fff;
     width: 340px;
     margin-top: 10px;
-    height: 37px;
+    height: 38px;
 }
 
 #form .direction-container {
@@ -182,108 +180,3 @@ select,
 hr {
     display: none;
 }
-
-/* @media (max-width: 767px) {
-
-    #footer {
-        height: 1020px;
-    }
-
-    .form {
-        width: 400px;
-        top: 18px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .form h1 {
-        margin-top: 50px !important;
-    }
-
-    .form input {
-        width: 200px;
-    }
-
-    .content {
-        display: grid;
-        text-align: center;
-    }
-
-    .content i {
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    .content h4 {
-        font-size: 22px;
-        border-bottom: 2px solid #fff;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 565px) {
-
-    #footer {
-        height: 1100px;
-    }
-
-    .form {
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-    }
-
-    .form__item {
-        display: grid;
-    }
-
-    .form button {
-        padding: 20px 93px;
-        margin-top: 5px;
-    }
-
-    .content i {
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    .content h4 {
-        font-size: 22px;
-        border-bottom: 2px solid #fff;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 400px) {
-    #footer {
-        height: 1100px;
-    }
-
-    .form {
-        width: 250px;
-        height: 300px;
-    }
-
-    .form h1 {
-        font-size: 30px;
-    }
-
-    .form input {
-        width: 150px;
-    }
-
-    .form button {
-        padding: 20px 67px;
-    }
-
-    .content i {
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    .content h4 {
-        font-size: 22px;
-        border-bottom: 2px solid #fff;
-        padding: 10px;
-    }
-} */
