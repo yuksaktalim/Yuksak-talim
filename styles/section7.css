@@ -175,6 +175,12 @@ select,
   padding: 0px 3px;
 }
 
+.map {
+  position: relative;
+  border: 2px solid #ffc94b;
+  border-radius: 10px;
+}
+
 hr {
   display: none;
 }
@@ -189,4 +195,10 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+.map {
+    position:relative;
+    border: 2px solid #ffc94b;
+    border-radius: 10px;
 }
