@@ -9,7 +9,7 @@ const comment = document.getElementById("comment")
 const shape1 = document.getElementById("shape1");
 shape1.addEventListener("click", function () {
   centerCircle.classList.add("change-image-1");
-  title.innerHTML = "Миррабосс";
+  title.innerHTML = "Мирабос";
   comment.innerHTML = "«Никогда не ошибается тот, кто ничего не делает»"
 });
 const shape2 = document.getElementById("shape2");
