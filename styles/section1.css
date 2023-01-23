@@ -48,8 +48,8 @@
 
 .nav-item a:hover {
   color: #FFC94B;
-  border-bottom: 3px solid #FFC94B;
-  transition: 0.3s ease-out;
+  border-bottom: 2px solid #FFC94B;
+  /* transition: 0.3s ease-out; */
 }
 
 .header .button {
@@ -135,12 +135,11 @@ h1 span {
   flex-direction: column;
   justify-content: center;
   gap: 25px;
-  /* background-color: red; */
   width: 40%;
   position: relative;
-  animation-duration: 4s;
+  /* animation-duration: 4s;
   animation: leftmove 1s 1;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
 }
 
 @keyframes leftmove {
@@ -165,9 +164,9 @@ h1 span {
   align-items: center;
   justify-content: center;
   position: relative;
-  animation-duration: 4s;
+  /* animation-duration: 4s;
   animation: mymove 1s 1;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
 }
 
 @keyframes mymove {
@@ -194,6 +193,7 @@ h1 span {
   width: 280px;
   border: 2px solid rgb(255, 255, 255, 0.6);
   height: 330px;
+  cursor: default !important;
 }
 
 .img-line-2 {

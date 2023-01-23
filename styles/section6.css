@@ -113,14 +113,12 @@
     border: 5px solid #fa903e;
     background-position: center 17%;
     background-size: 100px 140px;
-    z-index: 1000000;
 }
 .change-image-2 {
     background-image: url(/images/section6/3.jpg);
     border: 5px solid #0076ff;
     background-position: center 2%;
     background-size: 95px 140px;
-    z-index: 1000000;
 }
 
 .change-image-3 {
@@ -128,28 +126,24 @@
     border-color: #7e24a4;
     background-position: center -15%;
     background-size: 80px 120px;
-    z-index: 1000000;
 }
 .change-image-4 {
     background-image: url(/images/section6/5.jpg);
     border: 5px solid #ff0000;
     background-position: center 17%;
     background-size: 100px 140px;
-    z-index: 1000000;
 }
 .change-image-5 {
     background-image: url(/images/section6/6.jpg);
     border: 5px solid #029b69;
     background-position: center 5%;
     background-size: 100px 140px;
-    z-index: 1000000;
 }
 .change-image-6 {
     background-image: url(/images/section6/7.jpg);
     border: 5px solid #39b5fa;
     background-position: center -20%;
     background-size: 80px 125px;
-    z-index: 1000000;
 }
 
 .radius {
@@ -176,6 +170,7 @@
 }
 
 .circle2 {
+    cursor: pointer;
     height: calc(-10px + 5vw);
     width: calc(-10px + 5vw);
     /* border: calc(2px + 0.2vw) solid transparent;
