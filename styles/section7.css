@@ -196,3 +196,9 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+.map {
+    position:relative;
+    border: 2px solid #ffc94b;
+    border-radius: 10px;
+}
