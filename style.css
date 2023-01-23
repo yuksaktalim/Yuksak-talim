@@ -24,9 +24,9 @@ main {
   width: 100%;
 }
 
-body {
+/* body {
   min-width: 1512px;
-}
+} */
 
 .sections {
   display: flex;
@@ -36,7 +36,7 @@ body {
   margin: 0 auto;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 15px;
 }
 
@@ -54,4 +54,4 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #ffc94b;
-} */
+}
