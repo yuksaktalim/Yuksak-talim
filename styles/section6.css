@@ -106,14 +106,50 @@
     background-size: contain;
     background-image: url(/images/section6/1.jpg);
     background-repeat: no-repeat;
-    background-position: 80% 70%;
+    background-position: 80% 72%;
+}
+.change-image-1 {
+    background-image: url(/images/section6/2.jpg);
+    border: 5px solid #fa903e;
+    background-position: center 17%;
+    background-size: 100px 140px;
+    z-index: 1000000;
+}
+.change-image-2 {
+    background-image: url(/images/section6/3.jpg);
+    border: 5px solid #0076ff;
+    background-position: center 2%;
+    background-size: 95px 140px;
+    z-index: 1000000;
 }
 
 .change-image-3 {
-    /* background-image: url(/images/section6/4.jpg);
+    background-image: url(/images/section6/4.jpg);
     border-color: #7e24a4;
     background-position: center -15%;
-    background-size: 60px 120px; */
+    background-size: 80px 120px;
+    z-index: 1000000;
+}
+.change-image-4 {
+    background-image: url(/images/section6/5.jpg);
+    border: 5px solid #ff0000;
+    background-position: center 17%;
+    background-size: 100px 140px;
+    z-index: 1000000;
+}
+.change-image-5 {
+    background-image: url(/images/section6/6.jpg);
+    border: 5px solid #029b69;
+    background-position: center 5%;
+    background-size: 100px 140px;
+    z-index: 1000000;
+}
+.change-image-6 {
+    background-image: url(/images/section6/7.jpg);
+    border: 5px solid #39b5fa;
+    background-position: center -20%;
+    background-size: 80px 125px;
+    z-index: 1000000;
 }
 
 .radius {
@@ -121,6 +157,7 @@
 }
 
 .circle1 {
+    cursor: pointer;
     height: calc(-10px + 6vw);
     width: calc(-10px + 6vw);
     /* border: calc(2px + 0.2vw) solid transparent;
@@ -132,7 +169,10 @@
     left: 35%;
     background-image: url(/images/section6/2.jpg);
     background-position: 80% 25%;
-    border: 2px solid #fa903e;
+    border: 5px solid #fa903e;
+}
+.circle1:hover {
+    filter: opacity(0.9);
 }
 
 .circle2 {
@@ -148,6 +188,9 @@
     background-image: url(/images/section6/3.jpg);
     background-position: 80% 10%;
     border: 5px solid #0076ff;
+}
+.circle2:hover {
+    filter: opacity(0.9);
 }
 
 .circle3 {
@@ -170,6 +213,7 @@
 }
 
 .circle4 {
+    cursor: pointer;
     /* flex-shrink: 0; */
     height: calc(-10px + 6vw);
     width: calc(-10px + 6vw);
@@ -183,8 +227,12 @@
     background-position: 80% 22%;
     border: 5px solid #ff0000;
 }
+.circle4:hover {
+    filter: opacity(0.9);
+}
 
 .circle5 {
+    cursor: pointer;
     /* flex-shrink: 0; */
     height: calc(-10px + 5vw);
     width: calc(-10px + 5vw);
@@ -199,8 +247,12 @@
     background-position: 80% 10%;
     border: 5px solid #029b69;
 }
+.circle5:hover {
+    filter: opacity(0.9);
+}
 
 .circle6 {
+    cursor: pointer;
     /* flex-shrink: 0; */
     height: calc(-20px + 6vw);
     width: calc(-20px + 6vw);
@@ -212,6 +264,9 @@
     background-image: url(/images/section6/7.jpg);
     background-position: 80% 23%;
     border: 5px solid #39b5fa;
+}
+.circle6:hover {
+    filter: opacity(0.9);
 }
 
 .fadeIn1 {

@@ -2,7 +2,7 @@
 <html lang="uz">
 
 <head>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- <meta name="viewport" content="width=1529px"> -->
@@ -23,34 +23,85 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body> 
+<body>
+  <style>
+    /* customizable snowflake styling */
+    .snowflake {
+      color: #fff;
+      font-size: 1em;
+      font-family: Arial, sans-serif;
+      text-shadow: 0 0 5px #000;
+    }
+    
+    @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+    </style>
+    <div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+    </div>
   <header class="header">
-    <a href="">
+    <a href="/">
       <h1 class="logo animate__animated animate__jackInTheBox">Yuksak Ta'lim</h1>
     </a>
     <ul class="navbar">
       <li class="nav-item">
-        <a href="#section3-title">Kurslar</a>
-      </li>
-      <li class="nav-item">
-        <a href="">Yangiliklar</a>
+        <a href="#section3">Kurslar</a>
       </li>
       <li class="nav-item">
         <a href="#section5">Afzalliklar</a>
       </li>
       <li class="nav-item">
-        <a href="">About</a>
+        <a href="#section6">Fikrlar</a>
+      </li>
+      <li class="nav-item">
+        <a href="#footer">Biz Haqimmizda</a>
       </li>
     </ul>
-    <a href="#form__text" class="button">Ro'yhatdan o'tish</a>
+    <a href="#divider" class="button">Ro'yhatdan o'tish</a>
   </header>
   <main>
     <section class="sec1">
       <div class="custom-shape-divider-bottom-1674298327">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"></path>
         </svg>
-    </div>
+      </div>
       <div class="container">
         <div class="container-left">
           <div class="text-sec1">
@@ -64,9 +115,6 @@
             </p>
           </div>
           <div class="buttons">
-            <!-- <button>Kursga yozilish</button>
-            <button>Play</button> -->
-            <!-- <p><a href="">Yuksak Ta'lim?</a></p> -->
           </div>
         </div>
         <div class="container-right">
@@ -79,6 +127,7 @@
       <div class="boxes">
         <div class="box">
           <i class="fa-solid fa-school-flag icon-1 icons"></i>
+          <!-- <img style="width:60px; height: 60px; ;" src="./images/section1/professor.png" alt=""> -->
           <span class="text-color">10</span>
           <p>Mentor</p>
         </div>
@@ -110,29 +159,29 @@
         </div>
         <div class="right">
           <h1>
-            Benefit from our online <br> learning
+            Bizda ta'lim olishning <br> 3 ta foydali tomonlari
           </h1>
           <div class="items">
             <div class="item">
-              <div class="icon"></div>
+              <img class="icon" src="./images/images-section2/book.png" alt="">
               <div class="item-text">
-                <h3>Online degrees</h3>
+                <h3>Halqaro bilim</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, reprehenderit. Eius quis saepe
                   dignissimos reiciendis deleniti.</p>
               </div>
             </div>
             <div class="item">
-              <div class="icon"></div>
+              <img class="icon" src="./images/images-section2/program.png"  style="width: 50px; height: 50px;" alt="">
               <div class="item-text">
-                <h3>Online degrees</h3>
+                <h3>Real lohiyalar</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, reprehenderit. Eius quis saepe
                   dignissimos reiciendis deleniti.</p>
               </div>
             </div>
             <div class="item">
-              <div class="icon"></div>
+              <img class="icon" src="./images/images-section2/money-bag.png"  style="width: 50px; height: 50px;" alt="">
               <div class="item-text">
-                <h3>Online degrees</h3>
+                <h3>Ishga joylashuv</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, reprehenderit. Eius quis saepe
                   dignissimos reiciendis deleniti.</p>
               </div>
@@ -144,25 +193,25 @@
         <div class="text-sec3">
           <h1>Mashhur Kurslarimmiz</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum assumenda iusto, modi, facilis saepe laborum
-            Beatae.
+            IT olamidagi kop daromadli hamda qiziqishingizga oid bo'lgan zamonaviy kasbni  tanlang
           </p>
         </div>
         <div class="articles">
           <div class="artic_1">
             <div class="artic2">
               <article class="artic">
-                <img src="/images/images-sec3/front-end.jpg" alt="#" />
+                <div class="artic_image">
+                  <img src="/images/images-sec3/frontend.png" alt="#" />
+                </div>
                 <div class="course">
                   <button class="name-course">Front-end Dasturlash</button>
                 </div>
                 <p>
-                  Web sahifalarni foydalanuvchiga kurinadigon qismini qanday va qaysi tehnologiyalardan foydalanib
-                  yaratish
+                  Web sahifalarni foydalanuvchiga kurinadigon qismini yaratish
                 </p>
                 <div class="links">
-                  <a href="#">10x lessons</a>
-                  <a href="#">6 oy</a>
+                  <p>100x darslik</p>
+                  <p>8 oy</p>
                 </div>
               </article>
             </div>
@@ -170,7 +219,10 @@
           <div class="artic_2">
             <div class="artic2">
               <article class="artic">
-                <img src="/images/images-sec3/back-end.jpg" alt="#" />
+                <div class="artic_image">
+                  <img src="/images/images-sec3/backend.png" alt="#" />
+                </div>
+                
                 <div class="course">
                   <button class="name-course">Back-end Dasturlash</button>
                 </div>
@@ -178,8 +230,8 @@
                   Malumotlar bazasi, Serverlar, Rest API larni yaratish
                 </p>
                 <div class="links">
-                  <a href="#">10x lessons</a>
-                  <a href="#">6 oy</a>
+                  <p>100x darslik</p>
+                  <p>8 oy</p>
                 </div>
               </article>
             </div>
@@ -188,7 +240,7 @@
           <div class="artic_3">
             <div class="artic2">
               <article class="artic ">
-                <img src="images/images-sec3/grafik design.jpg" alt="#" />
+                <div class="artic_image"><img src="images/images-sec3/graphic.png" alt="#" /></div>
                 <div class="course">
                   <button class="name-course">Graphic Design</button>
                 </div>
@@ -196,8 +248,8 @@
                   Flayerlar, Ijtimoiy tarmoq postlari, Brend va Logotiplar yaratish
                 </p>
                 <div class="links">
-                  <a href="#">10x lessons</a>
-                  <a href="#">6 oy</a>
+                  <p>70x darslik</p>
+                  <p>6 oy</p>
                 </div>
               </article>
             </div>
@@ -207,7 +259,7 @@
           <div class="artic_4">
             <div class="artic2">
               <article class="artic">
-                <img src="/images/images-sec3/front-end.jpg" alt="#" />
+                <div class="artic_image"><img src="/images/images-sec3/3d.png" alt="#" /></div>
                 <div class="course">
                   <button class="name-course">3D Max Design</button>
                 </div>
@@ -215,8 +267,8 @@
                   3d obyektlar, interiyer va 3d modelling yaratish
                 </p>
                 <div class="links">
-                  <a href="#">10x lessons</a>
-                  <a href="#">6 oy</a>
+                  <p>70x darslik</p>
+                  <p>6 oy</p>
                 </div>
               </article>
             </div>
@@ -243,60 +295,60 @@
         </div>
       </section>
     </div>
-    <!--  -->
     <section id="section5">
       <div class="beginning">
-      <h1 class="start-part">Bizning Afzalliklarimiz</h1>
-    </div>
+        <h1 class="start-part">Bizning Afzalliklarimiz</h1>
+      </div>
       <div class="big-div1">
         <div class="divs">
           <div class="imj">
             <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
           </div>
-            <div class="tekst">
+          <div class="tekst">
             <h3 class="text-h1">Ustozlar</h1>
-          <p class="text-p1">Chet Davlatlarda Ta'lim Olgan Hamda Hozirda <br>Xalqaro Kompaniyalarda Ishlab Kelayotgan  Mentorlar</p>
-        </div>
+              <p class="text-p1">Chet Davlatlarda Ta'lim Olgan Hamda Hozirda <br>Xalqaro Kompaniyalarda Ishlab
+                Kelayotgan Mentorlar</p>
+          </div>
         </div>
         <div class="divs">
           <div class="imj">
-              <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
-            </div>
-            <div class="tekst">
-              <h3 class="text-h1">Zamonaviy Shart-Sharoitlar</h3>
-        <p class="text-p1">
-        </p>
-      </div>
-      </div>
-      <div class="divs">
-        <div class="imj">
-          <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
+            <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
+          </div>
+          <div class="tekst">
+            <h3 class="text-h1">Zamonaviy Shart-Sharoitlar</h3>
+            <p class="text-p1">
+            </p>
+          </div>
         </div>
-        <div class="tekst">
-          <h3 class="text-h1">Individual yordam</h3>
-        <p class="text-p1"></p>
-      </div>
+        <div class="divs">
+          <div class="imj">
+            <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
+          </div>
+          <div class="tekst">
+            <h3 class="text-h1">Individual yordam</h3>
+            <p class="text-p1"></p>
+          </div>
         </div>
       </div>
       <div class="big-div2">
         <div class="divs">
           <div class="imj">
-               <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
-              </div>
-              <div class="tekst">
-               <h3 class="text-h1">Jamoa bo‘lib </h3>
-          <p class="text-p">
-          </p>
-        </div>
+            <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
+          </div>
+          <div class="tekst">
+            <h3 class="text-h1">Jamoa bo‘lib </h3>
+            <p class="text-p">
+            </p>
+          </div>
         </div>
         <div class="divs">
           <div class="imj">
-              <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
-            </div>
-            <div class="tekst">
-              <h3 class="text-h1">Ish topish uchun</h3>
-              <p class="text-p"></p>
-        </div>
+            <img class="img-1" src="images/section4/undraw_Team_up_re_84ok.png">
+          </div>
+          <div class="tekst">
+            <h3 class="text-h1">Ish topish uchun</h3>
+            <p class="text-p"></p>
+          </div>
         </div>
         <div class="divs">
           <div class="imj">
@@ -304,14 +356,13 @@
           </div>
           <div class="tekst">
             <h3 class="text-h1">Sertifikat</h3>
-          <p class="text-p">
+            <p class="text-p">
           </div>
           </p>
         </div>
       </div>
-  </section>
-    <section class="sec6">
-      <!-- TEXT HERE STARTS -->
+    </section>
+    <section id="section6">
       <div class="text-sec6">
         <div id="text">
           <h1 id="h1">Student Testimonial</h1>
@@ -323,13 +374,14 @@
       <!-- BLOCK OF DIFFICULT PART -->
       <div class="sixpart">
         <div class="part1">
-          <div id="shape1"  class="circle1 radius fadeIn1"></div>
+          <div id="shape1" class="circle1 radius fadeIn1"></div>
           <div id="shape2" class="circle2 radius fadeIn2"></div>
           <div id="shape3" class="circle3 radius fadeIn3"></div>
         </div>
         <div class="part2-1">
           <div class="part2">
-            <p id="comment">" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo eligendi exercitationem
+            <p id="comment">" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo eligendi
+              exercitationem
               architecto<br>
               inventore
               praesentium in voluptatibus nesciunt molestias. "</p>
@@ -340,54 +392,51 @@
           </div>
         </div>
         <div class="part1">
-          <div id="shape4"  class="circle4 radius fadeIn1"></div>
-          <div id="shape5"  class="circle5 radius fadeIn2"></div>
-          <div id="shape5"  class="circle6 radius fadeIn3"></div>
+          <div id="shape4" class="circle4 radius fadeIn1"></div>
+          <div id="shape5" class="circle5 radius fadeIn2"></div>
+          <div id="shape6" class="circle6 radius fadeIn3"></div>
         </div>
       </div>
     </section>
+    <div id="divider"></div>
   </main>
   <footer id="footer">
     <div class="custom-shape-divider-top-1674295130">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 119" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"></path>
       </svg>
-  </div>
+    </div>
     <form id="form">
       <div class="title">
         <h1 id="form__text"><span>Ro'yhatdan</span> o'tish</h1>
-        <p class="form_text">Iltimos anketani to'ldiring biz sizga bog'lanamiz</p>
       </div>
       <div class="form-name">
-        <label>Ism va Familiyangizni yozing</label>
-      <div class="name-container">
-        <i class="fa-solid fa-user"></i>
-        <input type="text" placeholder="Ism, Familiyangiz">
-      </div>
+        <label>Ism Familiya</label>
+        <div class="name-container">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Ism, Familiyangiz">
+        </div>
       </div>
       <div class="phone-number">
         <label>Telefon Raqam</label>
       <div class="phone-container">
         <i class="fa-solid fa-phone"></i>
-        <input type="tel" placeholder="Telefon raqam">
+        <input type="text" placeholder="Telefon raqam">
       </div>
       </div>
       <div class="selects">
         <label>Yo'nalishingiz</label>
-      <div class="direction-container">
-        <i class="fa-regular fa-compass"></i>
-        <select name="direction" id="direction">
-          <option value="Front-end">Front-end</option>
-          <option value="Back-end">Back-end</option>
-          <option value="3D Max">3D Max</option>
-          <option value="Grafik Dizayn">Grafik Dizayn</option>
-          <option value="Kampiyuter Savodhonligi">Kompiyuter Savodholigi</option>
-          <option value="Ingili tili">Ingtiliz tili</option>
-          <option value="Rus tili">Rus tili</option>
-          <option value="Arab tili">Arab tili</option>
-          <option value="Kores tili">Kores tili</option>
-        </select>
-      </div>
+        <div class="direction-container">
+          <i class="fa-regular fa-compass"></i>
+          <select name="direction" id="direction">
+            <option value="Front-end">Front-end</option>
+            <option value="Back-end">Back-end</option>
+            <option value="3D Max">3D Max</option>
+            <option value="Grafik Dizayn">Grafik Dizayn</option>
+          </select>
+        </div>
       </div>
       <button type="submit" class="submit">Jo'natish</button>
     </form>
@@ -400,10 +449,10 @@
           Yuksak cho'qqilarni biz bilan zabt eting
         </p>
         <br />
-        <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+        <!-- <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a> -->
         <a href="https://www.instagram.com/stories/yuksaktalimofficial/2999655521308517650/" target="_blank"><i
             class="fa-brands fa-instagram fa-xl"></i></a>
-        <a href="https://t.me/yuksaktalimofficial" target="_blank"><i class="fa-brands fa-telegram fa-xl"></i></a>
+        <a href="https://t.me/Yuksak_talim_official" target="_blank"><i class="fa-brands fa-telegram fa-xl"></i></a>
       </div>
       <div class="content__items">
         <ul>
