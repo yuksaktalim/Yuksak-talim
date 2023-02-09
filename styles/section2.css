@@ -28,6 +28,7 @@
     width: 300px;
     border: 2px solid black;
     border-radius: 100px 200px;
+    /* background-color: #132026; */
 
     
 
@@ -41,7 +42,7 @@
     width: 100px;
     border: solid 2px red;
     top: -20%;
-    background-color: white;
+    background-color: red;
     left: -15%;
     border-top-left-radius: 50pc;
     animation-name: example;
@@ -66,13 +67,13 @@
     width: 260px;
     border: 2px solid violet;
     top: -10%;
-    background-color:  white;
+    background-color:  violet;
     right: -20%;
     border-top-right-radius: 100px;
     animation-name: vay;
     animation-duration: 2.6s;
     animation-delay: -0.1s;
-    background-image: url(/images/images-section2/2\ violet.jpg);
+    background-image: url(/images/images-section2/2\ violet-removebg-preview.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 55px;
@@ -94,7 +95,7 @@
 .shape3 {
     position: absolute;
     width: 150px;
-    background-color: white;
+    background-color: yellow;
     height: 150px;
     border: 2px solid yellow;
     border-radius: 100px;
@@ -107,9 +108,9 @@
 
 .shape4 {
     position: absolute;
-    border: 2px solid blue;
+    border: 2px solid #2196f3;
     height: 120px;
-    background-color: white;
+    background-color: #2196f3;
     width: 260px;
     border-bottom-left-radius: 100px;
     top: 85%;
@@ -118,7 +119,7 @@
     animation-duration: 2.2s;
     animation-delay: -0.1s;
     /* transition: ease 2.9s; */
-    background-image: url(/images/images-section2/blue.jpg);
+    background-image: url(/images/images-section2/photo\ number\ 2-removebg-preview.jpg);
     /* background-position: 95px; */
     background-repeat: no-repeat;
     background-clip: content-box;
@@ -143,13 +144,13 @@
     border-bottom-right-radius: 40pc;
     height: 190px;
     width: 100px;
-    background-color: white;
+    background-color: green;
     top: 55%;
     right: -20%;
     animation-name: tay;
     animation-duration: 2.7s;
     transition: ease 2.7s;
-    background-image: url(/images/images-section2/red.jpg);
+    background-image: url(/images/images-section2/DSC00977d-removebg-preview.jpg);
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: -26px   -25px;
@@ -168,13 +169,13 @@
     height: 170px;
     width: 100px;
     top: 31%;
-    background-color: white;
+    background-color: pink;
     left: -15%;
     border-radius: 20pc;
     animation-name: jay;
     animation-duration: 2.6s;
     transition: ease 2.6s;
-    background-image: url(/images/images-section2/last\ pink.jpg);
+    background-image: url(/images/images-section2/DSC00969-removebg-preview.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50%  5%;

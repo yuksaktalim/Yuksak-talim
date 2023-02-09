@@ -75,3 +75,103 @@ function removeClasses(className, name, com) {
 
 // const someting = document.getElementById("outline-border")
 // someting.style.visibility = "visible"
+
+
+
+
+
+
+const addMovieModal = document.getElementById('add-modal');
+const startAddMovieButton = document.getElementById('here');
+const backdrop = document.getElementById("backdrop")
+
+const cancelAddMovieButton = addMovieModal.querySelector(".btn--passive");
+const confirmMovieButton = addMovieModal.querySelector(".btn--success");
+
+const inputs = addMovieModal.querySelectorAll("input");
+const infoList = document.getElementById("movie-list");
+
+const movies = [];
+
+const updateUI = () => {
+    if (movies.length === 0) {
+        infoList.classList.remove("visible");
+
+    } else {
+        infoList.classList.add("visible");
+    }
+};
+
+const toggleBackdrop = () => {
+    backdrop.classList.toggle("visible")
+};
+
+
+const toggleMovieModal = () => {
+    addMovieModal.classList.toggle("visible");
+    toggleBackdrop();
+};
+
+const cancelAddMovie = () => {
+    toggleMovieModal();
+}
+
+const backdropClickHandler = () => {
+    toggleMovieModal();
+}
+
+const renderElements = (OzingizHaqizda, Fan , Qiziqish) => {
+    const newElement = document.createElement("li");
+    newElement.className = "movie-element";
+    newElement.innerHTML = `
+    <div class = "movie-element__image">
+    <img src="${OzingizHaqizda}" alt="${Fan}">
+    </div>
+    <div class="movie-element__info">
+    <h2>${Fan}</h2>
+    <p>${Qiziqish}/5 stars </p>
+    </div>`;
+    infoList.append(newElement);
+    console.log()
+}
+
+
+
+const addMovieHandler = () => {
+    const FanValue = inputs[0].value;
+    const OzingizHaqizdaValue = inputs[1].value;
+    const QiziqishValue= inputs[2].value;
+
+    if (
+      FanValue.trim() === "" ||
+      QiziqishValue.trim() === "" ||
+      OzingizHaqizdaValue.trim() === "" 
+      
+    ) {
+        alert("Mistake");
+        return;
+    }
+
+    renderElements(FanValue, OzingizHaqizdaValue, QiziqishValue);
+    
+
+    const newInfo = {
+        Fan: FanValue,
+        OzingizHaqizda: OzingizHaqizdaValue,
+        rating: QiziqishValue,
+
+    };
+    movies.push(newInfo);
+
+    updateUI()
+    toggleMovieModal();
+    console.log(movies)
+}
+
+
+
+startAddMovieButton.addEventListener('click', backdropClickHandler);
+backdrop.addEventListener('click', toggleMovieModal);
+cancelAddMovieButton.addEventListener('click', cancelAddMovie);
+confirmMovieButton.addEventListener('click', addMovieHandler);
+

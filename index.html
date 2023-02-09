@@ -268,6 +268,11 @@
             </article>
           </div>
 
+
+
+
+
+
       </section>
       <section class="section4">
         <div class="big">
@@ -277,7 +282,7 @@
               magni aperiam aspernatur quasi cum eum minima.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatum doloribus consectetur quod</p>
             <button class="click">
-              <a style="text-decoration: none" href="../Click button/index.html">Click Here to Apply</a>
+              <a style="text-decoration: none" id="here">Click Here to Apply</a>
             </button>
           </div>
           <div class="images">
@@ -285,8 +290,65 @@
             <img src="./images/section4/teacherxon2.png" class="image2" />
           </div>
         </div>
+        <div id="backdrop"></div>
+        <div class="modal" id="add-modal">
+          <div class="modal__content">
+            <!-- <label for="OzingizHaqizda">Ozingiz Haqizda</label>
+            <input type="text" name="OzingizHaqizda" id="OzingizHaqizda" />
+            <label for="Fan">Sizning Faningiz</label>
+            <input type="text" name="Fan"  />
+            <label for="Qiziqish">Sizning Qiziqishlaringiz</label>
+            <input type="text" name="Qiziqish" id="qiziqish"> -->
+
+            <form id="Ustozlar">
+              <div class="title">
+                <h1 id="form__text"><span>Ro'yhatdan</span> o'tish</h1>
+              </div>
+              <div class="form-name">
+                <label>Ism Familiya</label>
+                <div class="name-container">
+                  <i class="fa-solid fa-user"></i>
+                  <input id="OzingizHaqizda" type="text" placeholder="Ism, Familiyangiz">
+                </div>
+              </div>
+              <div class="phone-number">
+                <label>Telefon Raqam</label>
+                <div class="phone-container">
+                  <i class="fa-solid fa-phone"></i>
+                  <input type="number" placeholder="Telefon raqam" id="qiziqish">
+                </div>
+              </div>
+              <div class="selects">
+                <label>Yo'nalishingiz</label>
+                <div class="direction-container">
+                  <i class="fa-regular fa-compass"></i>
+                  <select name="direction" id="direction" id="Fan">
+                    <option value="Front-end">Front-end</option>
+                    <option value="Back-end">Back-end</option>
+                    <option value="3D Max">3D Max</option>
+                    <option value="Grafik Dizayn">Grafik Dizayn</option>
+                    <option value="Ingliz Tili">Ingliz Tili</option>
+                    <option value="Arab Tili">Arab Tili</option>
+                  </select>
+                </div>
+              </div>
+              <div class="FormButton">
+                <button class="submit btn btn--passive">Cancel</button>
+              <button type="submit" class="btn btn--success submit">Jo'natish</button>
+              </div>
+            </form>
+
+          </div>
+          <!-- <div class="modal__actions">
+            
+            <button >Add</button>
+          </div> -->
+        </div>
       </section>
     </div>
+
+
+
     <section id="section5">
       <div class="beginning">
         <h1 class="start-part">Bizning Afzalliklarimiz</h1>
