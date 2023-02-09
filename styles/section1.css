@@ -49,6 +49,7 @@
 .nav-item a:hover {
   color: #FFC94B;
   border-bottom: 2px solid #FFC94B;
+  /* transition: 0.3s ease-out; */
 }
 
 .header .button {
@@ -75,12 +76,18 @@
   text-decoration: none;
 }
 
+/* .header a:hover {
+  cursor: pointer;
+} */
+
 .sec1 {
   margin-top: 70px;
   position: relative;
   align-items: center;
   height: 550px;
+  /* background-color: rgb(139, 206, 247); */
   background-color: #132026;
+  /* border-bottom-left-radius: 40pc; */
 }
 
 .container {
@@ -89,6 +96,9 @@
   flex-direction: row;
   margin: 0 auto;
   width: 100%;
+  /* bottom: 20%; */
+  /* flex-wrap: wrap; */
+  /* height: calc(100vh - 200px); */
   height: 521px;
   justify-content: center;
 }
@@ -98,9 +108,6 @@
   color: white;
 }
 
-.container-left h5 {
-  color: white;
-}
 h1 span {
   color: #FFC94B;
 }
