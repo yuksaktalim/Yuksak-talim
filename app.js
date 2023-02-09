@@ -157,7 +157,7 @@ const addMovieHandler = () => {
 
 
 const newInfo = {
-  Ism,Familia: FanValue,
+  IsmFamilia: FanValue,
   OzingizHaqizda: OzingizHaqizdaValue,
   Fan1: QiziqishValue,
 
