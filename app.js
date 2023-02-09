@@ -117,6 +117,7 @@ const toggleMovieModal = () => {
 
 const cancelAddMovie = () => {
   toggleMovieModal();
+  document.body.style.overflow = "visible"
 }
 
 const backdropClickHandler = () => {
@@ -165,7 +166,8 @@ const newInfo = {
 movies.push(newInfo);
 
 // updateUI()
-toggleMovieModal();
+cancelAddMovie()
+// toggleMovieModal();
 console.log(movies)
 }
 
